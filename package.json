@@ -1,0 +1,35 @@
+{
+  "name": "vue-lazyloader",
+  "version": "0.0.0-development",
+  "description": "Vue component to lazy load anything you want. Just wrap and go.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"No test yet\"",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crsten/vue-lazyloader.git"
+  },
+  "keywords": [
+    "vue",
+    "component",
+    "lazyload"
+  ],
+  "author": "car.jacobsen@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crsten/vue-lazyloader/issues"
+  },
+  "homepage": "https://github.com/crsten/vue-lazyloader#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
+    "semantic-release": "^17.1.2",
+    "semantic-release-cli": "^5.4.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
