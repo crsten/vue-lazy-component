@@ -1,25 +1,25 @@
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
-[![Build Status](https://travis-ci.org/crsten/vue-lazy-component.svg?branch=master&style=flat-square)](https://travis-ci.org/crsten/vue-lazy-component)
-[![npm](https://img.shields.io/npm/dt/vue-lazy-component.svg?style=flat-square)](https://www.npmjs.com/package/vue-lazy-component)
-[![npm](https://img.shields.io/npm/v/vue-lazy-component.svg?style=flat-square)](https://www.npmjs.com/package/vue-lazy-component)
-![npm](https://img.shields.io/npm/l/vue-lazy-component.svg?style=flat-square)
+[![Build Status](https://travis-ci.org/crsten/vue-make-lazy.svg?branch=master&style=flat-square)](https://travis-ci.org/crsten/vue-make-lazy)
+[![npm](https://img.shields.io/npm/dt/vue-make-lazy.svg?style=flat-square)](https://www.npmjs.com/package/vue-make-lazy)
+[![npm](https://img.shields.io/npm/v/vue-make-lazy.svg?style=flat-square)](https://www.npmjs.com/package/vue-make-lazy)
+![npm](https://img.shields.io/npm/l/vue-make-lazy.svg?style=flat-square)
 
-# vue-lazy-component
+# vue-make-lazy
 
 ## Docs
 
 ```html
-<LazyLoader>
+<MakeLazy>
   <!-- Your content that will be lazyloaded -->
-</LazyLoader>
+</MakeLazy>
 ```
 
 ```js
 // Import and register
-import LazyLoader from 'vue-lazy-component'
+import MakeLazy from 'vue-make-lazy'
 
 // Vue 2
-Vue.component('LazyLoader', LazyLoader)
+Vue.component('MakeLazy', MakeLazy)
 // Vue 3
-app.component('LazyLoader', LazyLoader)
+app.component('MakeLazy', MakeLazy)
 ```

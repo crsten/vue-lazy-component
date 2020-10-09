@@ -1,5 +1,5 @@
 {
-  "name": "vue-lazy-component",
+  "name": "vue-make-lazy",
   "version": "0.0.0-development",
   "description": "Vue component to lazy load anything you want. Just wrap and go.",
   "main": "src/index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/crsten/vue-lazy-component.git"
+    "url": "https://github.com/crsten/vue-make-lazy.git"
   },
   "keywords": [
     "vue",
@@ -19,9 +19,9 @@
   "author": "car.jacobsen@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/crsten/vue-lazy-component/issues"
+    "url": "https://github.com/crsten/vue-make-lazy/issues"
   },
-  "homepage": "https://github.com/crsten/vue-lazy-component#readme",
+  "homepage": "https://github.com/crsten/vue-make-lazy#readme",
   "devDependencies": {
     "cz-conventional-changelog": "^3.3.0",
     "semantic-release": "^17.1.2",

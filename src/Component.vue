@@ -1,5 +1,5 @@
 <template>
-  <div class="vue-lazyloader">
+  <div class="vue-make-lazy">
     <transition name="fade">
       <slot v-if="intersected" />
     </transition>
@@ -41,7 +41,7 @@ export default {
 </script>
 
 <style lang="scss">
-.vue-lazyloader {
+.vue-make-lazy {
   .fade-enter-active,
   .fade-leave-active {
     transition-duration: 150ms;
