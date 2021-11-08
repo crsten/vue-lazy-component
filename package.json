@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"No test yet\"",
-    "semantic-release": "semantic-release"
+    "semantic-release": "dotenv semantic-release"
   },
   "repository": {
     "type": "git",
@@ -24,8 +24,10 @@
   "homepage": "https://github.com/crsten/vue-make-lazy#readme",
   "devDependencies": {
     "cz-conventional-changelog": "^3.3.0",
-    "semantic-release": "^17.1.2",
-    "semantic-release-cli": "^5.4.0"
+    "dotenv": "^8.2.0",
+    "dotenv-cli": "^3.2.0",
+    "semantic-release-cli": "^5.4.4",
+    "semantic-release": "^18.0.0"
   },
   "config": {
     "commitizen": {
