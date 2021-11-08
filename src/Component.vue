@@ -19,7 +19,7 @@ export default {
       const el = entries[0]
       if (el.isIntersecting) {
         this.intersected = true
-        this.$emit('intersect', el)
+        this.$nextTick(() => this.$emit('intersect', el))
         this.destroy()
       }
     },
